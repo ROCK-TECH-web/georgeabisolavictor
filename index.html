@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>George Abisola Victor | Fullstack Developer & SEO & Web Performance Specialist</title>
+  <meta name="description" content="Portfolio of George Abisola Victor , fullstack developer building fast, SEO-optimized web apps with React, Node.js, and technical SEO." />
+  <meta name="author" content="George Abisola Victor" />
+  <meta name="keywords" content="Fullstack Developer, SEO Specialist, Web Performance, React, Node.js, Technical SEO, Frontend, Backend, George Abisola Victor" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#0B0F1A" />
+  <meta property="og:title" content="George Abisola Victor | Fullstack Developer & SEO Specialist" />
+  <meta property="og:description" content="Fullstack engineering, technical SEO, and Core Web Vitals work , see projects, skills, and case studies." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./assets/project-2.svg" />
+  <meta property="og:image:alt" content="SEO Growth Engine preview" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="./assets/project-2.svg" />
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./assets/favicon.svg" />
+  <link rel="canonical" href="/" />
+  <link rel="stylesheet" href="./styles.css" />
+  <!-- Preload key images to improve Largest Contentful Paint (LCP) -->
+  <link rel="preload" as="image" href="/assets/George%20Abisola%20Victor.png">
+  <link rel="preload" as="image" href="/assets/George%20Abisola%20Backend.jpg">
+  <link rel="preload" as="image" href="/assets/George%20Abisola%20Frontend.jpg">
+  <link rel="preload" as="image" href="/assets/GeorgeAbisola%20SEO.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "/",
+    "name": "George Abisola Victor",
+    "description": "Portfolio of George Abisola Victor, Fullstack Developer & SEO Specialist",
+    "publisher": {
+      "@type": "Person",
+      "name": "George Abisola Victor"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "George Abisola Victor",
+    "jobTitle": "Fullstack Developer | SEO & Web Performance Specialist",
+    "url": "/",
+    "sameAs": ["https://ng.linkedin.com/in/george-abisola-victor-6ba49831a"],
+    "knowsAbout": ["Fullstack Development","React","Node.js","SEO Optimization","Technical SEO","Web Performance","Content Strategy"]
+  }
+  </script>
+</head>
+<body>
+  <div class="app">
+    <!-- NAV -->
+    <header class="site-header">
+      <nav class="nav container">
+        <a href="#home" class="brand">
+          <span class="brand-mark">G</span>
+          <span>George.dev</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#why-me">Why Me</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-accent hire-btn">Hire Me</a>
+        <button id="menuBtn" class="hb" type="button"
+                aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span class="sr-only">Menu</span>
+          <span class="hb-bars">
+            <span class="hb-line"></span>
+            <span class="hb-line"></span>
+            <span class="hb-line"></span>
+          </span>
+        </button>
+      </nav>
+    </header>
+
+    <div id="backdrop" class="backdrop" aria-hidden="true"></div>
+
+    <aside id="mobileMenu" class="mobile-menu" role="dialog" aria-modal="true" aria-hidden="true">
+      <ul class="mm-links">
+        <li><a href="#about" data-close>About</a></li>
+        <li><a href="#skills" data-close>Skills</a></li>
+        <li><a href="#projects" data-close>Projects</a></li>
+        <li><a href="#why-me" data-close>Why Me</a></li>
+        <li><a href="#contact" data-close>Contact</a></li>
+      </ul>
+      <a href="#contact" data-close class="btn btn-accent mm-cta">Hire Me</a>
+    </aside>
+
+    <main>
+      <!-- HERO -->
+      <section id="home" class="hero grid-bg">
+        <div class="container hero-grid">
+          <div class="reveal">
+            <span class="pill">
+              <span class="dot pulse-ring"></span>
+              Available for fullstack & SEO roles
+            </span>
+            <h1 class="h1">George Abisola Victor | Fullstack Developer & SEO Specialist</h1>
+            <p class="lead">Fullstack Developer <span class="accent">|</span> SEO & Web Performance Specialist</p>
+            <p class="muted hero-desc">
+              I help business owners turn visitors into paying customers through high-performance SEO-driven web experiences
+            </p>
+            <div class="cta-row">
+              <a href="#projects" class="btn btn-accent glow-accent">View Projects</a>
+              <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+            <dl class="stats">
+              <div class="stat-card"><dt>100</dt><dd>Lighthouse</dd></div>
+              <div class="stat-card"><dt>10+</dt><dd>Skills</dd></div>
+              <div class="stat-card"><dt>20+</dt><dd>Projects</dd></div>
+            </dl>
+          </div>
+          <div class="reveal hero-portrait">
+            <div class="portrait-glow"></div>
+            <div class="portrait-frame card-hover">
+                       <img src="./assets/George%20Abisola%20Victor.png" alt="Portrait of George Abisola Victor, fullstack developer"
+                     width="480" height="480" fetchpriority="high" decoding="async" />
+              <!-- status chip removed per request -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section about-section">
+        <div class="about-blob"></div>
+        <div class="container about-grid">
+          <div class="reveal about-sticky">
+            <p class="eyebrow">About</p>
+            <h2 class="h2">Engineering for visibility, speed, and results.</h2>
+            <p class="muted">A fullstack developer building web systems that rank, load fast, and convert , from database to design system.</p>
+            <div class="mini-stats">
+              <div><p class="accent strong">3+</p><p class="xs muted">Years coding</p></div>
+              <div><p class="accent strong">95+</p><p class="xs muted">Lighthouse avg</p></div>
+              <div><p class="accent strong">10+</p><p class="xs muted">Tech stack</p></div>
+              <div><p class="accent strong">100%</p><p class="xs muted">Remote ready</p></div>
+            </div>
+          </div>
+          <div class="reveal about-body">
+            <p class="muted">I'm <span class="fg strong">George Abisola Victor</span>, a fullstack developer focused on building high-performance, SEO-optimized web experiences. I work across frontend and backend systems to ship digital products that are fast, scalable, and structured for real-world use.</p>
+            <p class="muted">I combine engineering with content strategy, analytics, and copywriting , so the sites I build aren't just well-coded, they're discoverable, understandable, and conversion-focused.</p>
+            <ul class="check-grid">
+              <li><span class="check">✓</span><div><p class="strong">Fullstack engineering</p><p class="xs muted">React, Node.js, REST APIs, PostgreSQL.</p></div></li>
+              <li><span class="check">✓</span><div><p class="strong">Technical SEO</p><p class="xs muted">Schema, metadata, sitemaps, indexing.</p></div></li>
+              <li><span class="check">✓</span><div><p class="strong">Web performance</p><p class="xs muted">Core Web Vitals, caching, lazy-loading.</p></div></li>
+              <li><span class="check">✓</span><div><p class="strong">Content & analytics</p><p class="xs muted">Copy, GA4, Search Console insights.</p></div></li>
+            </ul>
+            <div class="cta-card">
+              <div>
+                <p class="xs muted upper">Currently</p>
+                <p class="strong">Open to fullstack & SEO roles</p>
+              </div>
+              <a href="#contact" class="btn btn-accent btn-sm">Get in touch →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section skills-section">
+        <div class="container">
+          <div class="reveal">
+            <p class="eyebrow">Skills</p>
+            <h2 class="h2">A toolkit built for shipping production systems.</h2>
+          </div>
+          <ul class="skill-grid" id="skillGrid"></ul>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="reveal projects-head">
+            <div>
+              <p class="eyebrow">Projects</p>
+              <h2 class="h2">Real systems. Real outcomes.</h2>
+            </div>
+            <p class="muted">Three focus areas , backend logic, SEO growth, and frontend UX , shipped end-to-end.</p>
+          </div>
+          <div class="project-grid" id="projectGrid"></div>
+        </div>
+      </section>
+
+      <!-- WHY -->
+      <section id="why-me" class="section skills-section">
+        <div class="container why-grid">
+          <div class="reveal">
+            <p class="eyebrow">Why hire me</p>
+            <h2 class="h2">I build web systems that don't just look good, they perform.</h2>
+          </div>
+          <div class="reveal why-cards" id="whyCards"></div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section contact-section">
+        <div class="container contact-inner reveal">
+          <p class="eyebrow">Contact</p>
+          <h2 class="h2 big">Let's build something that performs.</h2>
+          <p class="muted center-narrow">Open to fullstack developer roles, SEO engagements, and performance consulting. Reach out and let's talk.</p>
+          <div class="cta-row center">
+            <a href="https://ng.linkedin.com/in/george-abisola-victor-6ba49831a" target="_blank" rel="noopener noreferrer" class="btn btn-accent glow-accent">Connect on LinkedIn</a>
+            <a href="mailto:georgeabisola3@gmail.com" class="btn btn-outline">Message George</a>
+          </div>
+          <div class="info-card">
+            <div><p class="xs muted upper">Name</p><p class="strong">George Abisola Victor</p></div>
+            <div><p class="xs muted upper">Role</p><p class="strong">Fullstack Developer | SEO & Web Performance</p></div>
+            <div><p class="xs muted upper">LinkedIn</p>
+              <a class="accent link" href="https://ng.linkedin.com/in/george-abisola-victor-6ba49831a" target="_blank" rel="noopener noreferrer">Visit LinkedIn Profile</a>
+            </div>
+            <div><p class="xs muted upper">Availability</p><p class="strong accent">Open to opportunities</p></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>© <span id="year"></span> George Abisola Victor. All rights reserved.</p>
+        <p>Built with performance and SEO in mind.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>

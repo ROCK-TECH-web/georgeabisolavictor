@@ -1,0 +1,6 @@
+# robots.txt for your site
+# Allow all crawlers. Update the Sitemap URL to your production domain.
+User-agent: *
+Allow: /
+
+Sitemap: https://yourdomain.com/sitemap.xml
